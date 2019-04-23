@@ -2,6 +2,19 @@
 #author:fausto Lopez
 #purpose: quick simple accessible dashboard for public metrics
 
+#load required libraries
+#libs = c('data.table','shiny','shinydashboard','scales','lubridate'
+#         ,'DT','Hmisc', 'fasttime','zoo','ggplot2','plotly')
+#lapply(libs, require, character.only = T)
+
+library(data.table)
+library(shiny)
+library(shinydashboard)
+library(scales)
+library(DT)
+library(Hmisc)
+library(zoo)
+library(plotly)
 
 
 #ui.R-----------------------------------------------------------------------------------------------------------------------------------------
